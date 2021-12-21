@@ -1,0 +1,1 @@
+Discrete models work with bigger time steps such as 1 day for the epidemic models. Euler's method on the other hand, is used to discretize continuous models to be able to solve them numerically and works better as the time steps get smaller and smaller since its error is a function of step size. 

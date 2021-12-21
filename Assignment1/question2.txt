@@ -1,0 +1,28 @@
+Upon first thinking about this problem, I thought this strategy had some potential to stabilze the levels of both organisms. 
+
+It seems that it can help in certain situations if the reduction percentage, current state of the system, and rates of increase 
+of the organisms are all aligned in a manner that allows for this potential to be realized.
+
+If the alpha values for each organisms are both greater than 1, then the model fits into the case observed in question 1 of this
+homework in which the stable equilibrium points are along the x and y axis and the model gravitates to eliminating one of the
+organisms from the population. This can be seen in figure q2_1... In this case, eventually one of the populations will collapse no
+matter how often we decrease if we are decreasing by a constant factor in both populations as can be seen in this same figure.
+
+If the alpha value for one organism is greater than 1 and the alpha value for the other is less than 1, then this will fit into
+one of the other cases of the Lotka-Volterra model in which the organisms with alpha value greater than 1 will eventually dominate
+if nothing is done to stabilize the model. This can be seen in figure q2_2...
+
+In this case, if we decrease the values of both populations by a constant factor, then the population values at the time of 
+reduction matter greatly. We can see from the phase space streamplot where the model is trending given the population values. If 
+the population has gained too much momentum in elimination of one of the species, then reducing the population will not matter 
+regardless of the interval or amount of reduction. A happy balance can be struck by playing with the values of r for both of the
+populations. As we push r higher for a species, that species has more survivability.
+
+If the model has not gained this momentum, then it is possible to stabilize the two organisms within the system by the
+reduction in both populations. Again, this can be achieved by modifying the value of r for the populations and the population
+values as in figure q2_3... compared with q2_2... and q2_4... compared with q2_5...
+
+What classifies as too much momentum is tough to say mathematically, but we can look at a stream plot to get an idea. See figure x.
+
+Additionally, we have included a python file (question2_reduction_pop.py) that allows for parameters to be varied and can be
+experimented with to find what works and does not.

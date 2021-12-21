@@ -1,0 +1,2 @@
+For a system to show cyclic behavior, it has to have two degrees of freedom. While Lotka-Volterra predator-prey model has two degrees of freedom (since it is an open system), the SIS epidemic model that we have studied in the class has only one degrees of freedom due to being a closed system. Therefore it cannot show cyclic behaviors.
+SIR and SIRS models can show cyclic behavior as they have two degrees of freedoms. Yet they cannot show chaotic behavior as a model needs at least three degrees of freedom to be able to show chaotic behavior.

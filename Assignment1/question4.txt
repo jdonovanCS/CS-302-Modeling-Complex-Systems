@@ -1,0 +1,1 @@
+Two methods have different errors in terms of step size h. While h is small, they perform similarly. As the h increases, we start to see noticeable differences between time series trajectories.
